@@ -1,0 +1,146 @@
+/* الوضع الافتراضي (النهاري) */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.5s, color 0.5s;
+    padding: 20px;
+    line-height: 1.8;
+    font-size: 20px;
+    direction: rtl;
+    text-align: right;
+}
+
+#modeToggle {
+    padding: 15px 30px;
+    cursor: pointer;
+    background-color: #fff; /* تغيير لون الزر إلى أبيض */
+    color: #000;
+    border: 1px solid #000; /* حدود للزر */
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* تعديل الجدول في الوضع النهاري */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: right;
+    direction: rtl;
+    background-color: #fff; /* لون الخلفية للجدول مثل لون الصفحة */
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #ddd; /* لون الرأس */
+    color: #000;
+}
+
+td {
+    background-color: #fff; /* لون خلايا الجدول */
+    color: #000;
+    border: 1px solid #ddd;
+}
+
+/* الوضع الداكن */
+.dark-mode {
+    background-color: #000;
+    color: #fff;
+}
+
+.dark-mode #modeToggle {
+    background-color: #800080; /* تغيير لون الزر إلى بنفسجي */
+    color: #fff;
+    border: 1px solid #fff; /* حدود بيضاء للزر */
+}
+
+/* تعديل الجدول في الوضع الداكن */
+.dark-mode table {
+    background-color: #000; /* لون الخلفية للجدول مثل لون الصفحة */
+    border: 1px solid #444;
+}
+
+.dark-mode th {
+    background-color: #800080; /* لون الرأس بنفسجي */
+    color: #fff;
+}
+
+.dark-mode td {
+    background-color: #000; /* لون خلايا الجدول مثل لون الخلفية */
+    color: #fff;
+    border: 1px solid #444;
+}
+/* تكبير الشاشة بالكامل */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.5s, color 0.5s;
+    padding: 20px;
+    line-height: 1.8;
+    font-size: 22px; /* زيادة حجم الخط للنص */
+    direction: rtl;
+    text-align: right;
+}
+
+/* تكبير زر التبديل */
+#modeToggle {
+    padding: 20px 40px; /* زيادة حجم الزر */
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    margin-bottom: 30px; /* زيادة المسافة أسفل الزر */
+    font-size: 22px; /* زيادة حجم النص داخل الزر */
+    text-align: center;
+}
+
+/* تكبير الفيديو */
+.video-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    max-width: 800px; /* زيادة عرض الفيديو */
+    height: auto;
+    margin-bottom: 30px;
+}
+
+/* تكبير الصور */
+.images {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.images img {
+    width: 100%;
+    max-width: 800px; /* زيادة عرض الصور */
+    height: auto;
+    margin-bottom: 30px;
+}
+
+/* تكبير الأزرار الخاصة بالاسم وID */
+.student-info {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.student-info button {
+    padding: 15px 30px; /* زيادة حجم الأزرار */
+    margin: 10px;
+    font-size: 20px; /* زيادة حجم النص داخل الأزرار */
+    cursor: pointer;
+}
+
+/* زيادة حجم النص الخاص بالاسم وID */
+#studentName, #studentID {
+    margin-top: 20px;
+    font-size: 24px; /* زيادة حجم النص */
+    font-weight: bold;
+    text-align: center;
+}
